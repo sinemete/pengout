@@ -9,10 +9,8 @@
             </div>
             <div class="row">
                 {% for member in site.people %}
-                {% if member == 4%}
-                <div class="col-sm-3">.col-sm-3</div> 
-                {% endif %}
-                <div class="col-sm-4">
+                
+                <div class="col-sm-6">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
