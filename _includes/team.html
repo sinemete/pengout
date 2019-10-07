@@ -10,7 +10,9 @@
             <div class="row">
                 {% for member in site.people %}
                 <div class="col-lg-4">
-                    <div style="margin-left:member*50px;"
+                    {% if member == 4 %}
+                    <div style="margin-left:100px;"></div>
+                    {% endif %}
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
