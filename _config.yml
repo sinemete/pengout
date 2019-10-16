@@ -41,7 +41,8 @@ people1:
       url: #
     - title: google-plus
       url: #
-people1:     
+      
+people2:     
 - name: Pegah Soltani
   pic: 4
   position: Developer
