@@ -1,5 +1,5 @@
 ---
-title: Specifications Report
+title: High-Level Design Report
 modal-id: 3
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
