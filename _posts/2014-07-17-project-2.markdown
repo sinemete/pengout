@@ -1,5 +1,5 @@
 ---
-title: Specifications Report
+title: Analysis Report
 modal-id: 2
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
