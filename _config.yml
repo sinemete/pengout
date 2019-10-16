@@ -8,7 +8,7 @@ description: "Write an awesome description for your new site here. You can edit 
 
 
 # Team names, titles and social links
-people:
+people1:
 - name: Damla Eda Bıçakcı
   pic: 1
   position: Developer
@@ -41,7 +41,7 @@ people:
       url: #
     - title: google-plus
       url: #
-      
+people1:     
 - name: Pegah Soltani
   pic: 4
   position: Developer
