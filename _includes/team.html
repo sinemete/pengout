@@ -10,10 +10,8 @@
 
             </div>
             <div class="row"> 
-                {% for member in site.people %}
-                    {% if member.name=="Pegah Soltani" %}
-                        <div style="margin-left:100px;"></div>
-                    {% endif %}
+                {% for member in site.people1 %}
+                    
                 <div class="col-lg-4">
                     
                     <div class="team-member">
@@ -34,7 +32,28 @@
                  </div>
                 {% endfor %}
             </div>
-            
+            <div class="row"> 
+                {% for member in site.people2 %}
+                <div class="col-lg-2">
+                    
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                 </div>
+                {% endfor %}
             </div>
+            
         </div>
     </section>
